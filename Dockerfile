@@ -1,5 +1,7 @@
 FROM node:14-alpine
 
+RUN apt-get update && apt-get install -y
+
 WORKDIR /app
 
 COPY package.json .
