@@ -1,6 +1,6 @@
 FROM node:14-alpine
 
-RUN apt-get update && apt-get install -y git vim
+ARG CURL_OPTIONS=""
 
 WORKDIR /app
 
