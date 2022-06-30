@@ -1,6 +1,4 @@
-FROM node:17.9.0-slim
-
-ARG APISECRET="MYSECRET"
+FROM node:14
 
 WORKDIR /app
 
